@@ -1,0 +1,4 @@
+User-agent: *
+allow: /
+disallow: /yessecure-adminlogin
+disallow: /institution-login

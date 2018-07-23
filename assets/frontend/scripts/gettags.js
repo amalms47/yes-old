@@ -1,0 +1,1 @@
+$(function(){var t=$("#tagidsection").val();gettagby(t)});var gettagby=function(t){$.post(site_url+"Seoadmin/getTagsfront",{id:t},function(t){var a=t.content;for(var e in a)var n=a[e];$("#collegetitletag").html(n.title),$("#metakeywordtag").html(n.metaname),$("#metanametag").html(n.metadescription)})};
